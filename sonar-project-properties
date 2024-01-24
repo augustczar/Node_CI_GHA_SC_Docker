@@ -1,0 +1,13 @@
+sonar.projectKey=augustczar_Node_CI_GHA_SC_Docker
+sonar.organization=augustczar
+
+sonar.projectName=Node_CI_GHA_SC_Docker
+
+sonar.sources=src
+sonar.exclusions=**/*.test.js
+sonar.tests=src
+sonar.test.inclusions=**/*.test.ja
+sonar.javascript.coveragePlugin=lcov
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+
+sonar.sourceEncoding=UTF-8
