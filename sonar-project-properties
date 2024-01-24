@@ -4,9 +4,9 @@ sonar.organization=augustczar
 sonar.projectName=Node_CI_GHA_SC_Docker
 
 sonar.sources=src
-sonar.exclusions=**/*.test.js
+sonar.exclusions=**/*.test.ts
 sonar.tests=src
-sonar.test.inclusions=**/*.test.ja
+sonar.test.inclusions=**/*.test.js
 sonar.javascript.coveragePlugin=lcov
 sonar.javascript.lcov.reportPaths=coverage/lcov.info
 
