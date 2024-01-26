@@ -1,8 +1,5 @@
 sonar.projectKey=augustczar_Node_CI_GHA_SC_Docker
 sonar.organization=augustczar
-
-sonar.projectName=Node_CI_GHA_SC_Docker
-
 sonar.sources=src
 sonar.exclusions=**/*.test.ts
 sonar.tests=src
