@@ -42,3 +42,4 @@ jobs:
         with:
           push: true
           tags: augustczar/Node_CI_GHA_SC_Docker:latest
+ 
