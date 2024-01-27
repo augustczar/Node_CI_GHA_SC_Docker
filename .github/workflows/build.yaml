@@ -41,5 +41,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: augustczar/Node_CI_GHA_SC_Docker:latest
+          tags: augustczar/node_ci_gha_sc_docker:latest
  
