@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '20.x'
 
-      - run: npm run test -coverprofile=coverage.out
+      - run: npm run test
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
