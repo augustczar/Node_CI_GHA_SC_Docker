@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/usr/src/app/src/index.test.js">
-    <testCase name="Apply Discount" duration="3"/>
-    <testCase name="Apply big discount" duration="0"/>
+    <testCase name="Apply Discount" duration="5"/>
+    <testCase name="Apply big discount" duration="1"/>
   </file>
 </testExecutions>
