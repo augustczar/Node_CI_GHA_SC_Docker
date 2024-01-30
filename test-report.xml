@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/usr/src/app/src/index.test.js">
-    <testCase name="Apply Discount" duration="3">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;applyDiscount&apos;)"><![CDATA[TypeError: Cannot read properties of undefined (reading 'applyDiscount')
-    at Object.applyDiscount (/usr/src/app/src/index.test.js:4:26)
-    at Promise.then.completed (/usr/src/app/node_modules/jest-circus/build/utils.js:298:28)
-    at new Promise (<anonymous>)
-    at callAsyncCircusFn (/usr/src/app/node_modules/jest-circus/build/utils.js:231:10)
-    at _callCircusTest (/usr/src/app/node_modules/jest-circus/build/run.js:316:40)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at _runTest (/usr/src/app/node_modules/jest-circus/build/run.js:252:3)
-    at _runTestsForDescribeBlock (/usr/src/app/node_modules/jest-circus/build/run.js:126:9)
-    at run (/usr/src/app/node_modules/jest-circus/build/run.js:71:3)
-    at runAndTransformResultsToJestFormat (/usr/src/app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
-    at jestAdapter (/usr/src/app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
-    at runTestInternal (/usr/src/app/node_modules/jest-runner/build/runTest.js:367:16)
-    at runTest (/usr/src/app/node_modules/jest-runner/build/runTest.js:444:34)]]></failure>
-    </testCase>
-    <testCase name="Apply big discount" duration="1">
-      <failure message="TypeError: Cannot read properties of undefined (reading &apos;applyDiscount&apos;)"><![CDATA[TypeError: Cannot read properties of undefined (reading 'applyDiscount')
-    at Object.applyDiscount (/usr/src/app/src/index.test.js:9:26)
-    at Promise.then.completed (/usr/src/app/node_modules/jest-circus/build/utils.js:298:28)
-    at new Promise (<anonymous>)
-    at callAsyncCircusFn (/usr/src/app/node_modules/jest-circus/build/utils.js:231:10)
-    at _callCircusTest (/usr/src/app/node_modules/jest-circus/build/run.js:316:40)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at _runTest (/usr/src/app/node_modules/jest-circus/build/run.js:252:3)
-    at _runTestsForDescribeBlock (/usr/src/app/node_modules/jest-circus/build/run.js:126:9)
-    at run (/usr/src/app/node_modules/jest-circus/build/run.js:71:3)
-    at runAndTransformResultsToJestFormat (/usr/src/app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
-    at jestAdapter (/usr/src/app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
-    at runTestInternal (/usr/src/app/node_modules/jest-runner/build/runTest.js:367:16)
-    at runTest (/usr/src/app/node_modules/jest-runner/build/runTest.js:444:34)]]></failure>
-    </testCase>
-    <testCase name="add 10 + 5 be equal 15" duration="2"/>
-    <testCase name="sub 10 - 5 be equal 5" duration="1"/>
+    <testCase name="Apply Discount" duration="3"/>
+    <testCase name="Apply big discount" duration="0"/>
+    <testCase name="add 10 + 5 be equal 15" duration="0"/>
+    <testCase name="sub 10 - 5 be equal 5" duration="0"/>
     <testCase name="sub 8 - 4 be equal 4" duration="1"/>
-    <testCase name="times 10 * 5 be equal 50" duration="0"/>
+    <testCase name="times 10 * 5 be equal 50" duration="1"/>
     <testCase name="div 10 / 5 be equal 2" duration="0"/>
   </file>
 </testExecutions>
