@@ -1,4 +1,4 @@
-const { applyDiscount, sum, sub, times, div } = require('./index');
+const { index, sum, sub, times, div } = require('./index');
 
 test('Apply Discount', () => {
     const result = index.applyDiscount(10, 5);
