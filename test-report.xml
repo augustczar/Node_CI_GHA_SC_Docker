@@ -3,5 +3,10 @@
   <file path="/usr/src/app/src/index.test.js">
     <testCase name="Apply Discount" duration="3"/>
     <testCase name="Apply big discount" duration="0"/>
+    <testCase name="add 10 + 5 be equal 15" duration="0"/>
+    <testCase name="sub 10 - 5 be equal 5" duration="0"/>
+    <testCase name="sub 8 - 4 be equal 4" duration="1"/>
+    <testCase name="times 10 * 5 be equal 50" duration="1"/>
+    <testCase name="div 10 / 5 be equal 2" duration="0"/>
   </file>
 </testExecutions>
