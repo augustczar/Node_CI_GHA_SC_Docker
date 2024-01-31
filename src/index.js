@@ -1,3 +1,4 @@
+// applyDiscount aplica um disconto
 function applyDiscount(price, discount){
     if(discount > price)
         return 0;
