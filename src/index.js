@@ -26,4 +26,9 @@ function div(a, b) {
     return a / b;
 }
 
+// raiz quadrada
+function squareRoot(a){
+    return Math.sqrt(a);
+}
+
 module.exports = { applyDiscount, sum, sub, times, div }
