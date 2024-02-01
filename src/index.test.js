@@ -29,3 +29,7 @@ test(`times 10 * 5 be equal 50`, () => {
 test(`div 10 / 5 be equal 2`, () => {
     expect(div(10, 5)).toBe(2);
 });
+
+test(`square root sqrt(25) be equal 5`, () => {
+    expect(Math.sqrt(25)).toBe(5)
+});
